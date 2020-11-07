@@ -1,0 +1,1631 @@
+top - 09:30:52 up 2 days, 17:21,  1 user,  load average: 0,08, 0,27, 0,39
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  5,5 us,  2,0 sis,  0,4 ni, 91,8 oc,  0,3 ag,  0,0 ih,  0,1 is  0,0 tr
+KB mem :  5986548 total,   794320 livre,  2676912 usados,  2515316 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2785580 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+ 3004 mateus    20   0 1431604 118828  43104 S  17,6  2,0   0:39.86 nautilus
+ 1106 root      20   0  639088  89036  70940 S  11,8  1,5   3:42.83 Xorg
+17395 mateus    20   0 1990368 358420 129588 S   5,9  6,0   1:18.34 qtcreator
+20193 mateus    20   0   44336   4140   3464 R   5,9  0,1   0:00.02 top
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2035 mateus    20   0 1258712  26572  21668 S   0,0  0,4   0:00.56 indicator-+
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2071 mateus    20   0  555128  40520  34444 S   0,0  0,7   0:01.90 gnome-scre+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2306 mateus    20   0  848080  36232  27264 S   0,0  0,6   0:40.98 metacity
+ 2311 mateus    20   0  818560  51620  36304 S   0,0  0,9   0:11.48 gnome-panel
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 6082 mateus    20   0 1079560 302524 101372 S   0,0  5,1   1:07.62 chrome
+ 7575 mysql     20   0 1424360 178344  15680 S   0,0  3,0   0:01.68 mysqld
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17293 mateus    20   0  747400 134276  81376 S   0,0  2,2   0:05.37 chrome
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17606 root      20   0       0      0      0 I   0,0  0,0   0:00.51 kworker/u1+
+17678 mateus    20   0  797732  39640  29908 S   0,0  0,7   0:02.34 gnome-term+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19363 mateus    20   0   44336   4296   3620 S   0,0  0,1   0:05.17 top
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19881 root      20   0       0      0      0 I   0,0  0,0   0:00.09 kworker/u1+
+19953 root      20   0       0      0      0 I   0,0  0,0   0:00.06 kworker/0:+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20119 root      20   0       0      0      0 I   0,0  0,0   0:00.02 kworker/1:+
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22827 mateus    20   0 1150168 245344 114452 S   0,0  4,1   2:51.07 chrome
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,0  1,5   0:24.95 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+26126 mateus    20   0  820668 146568  83912 S   0,0  2,4   0:20.48 chrome
+31934 mateus    20   0  740684 124260  77788 S   0,0  2,1   0:06.34 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
+
+top - 09:30:55 up 2 days, 17:21,  1 user,  load average: 0,08, 0,27, 0,39
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  0,8 us,  0,7 sis,  0,0 ni, 98,5 oc,  0,0 ag,  0,0 ih,  0,0 is  0,0 tr
+KB mem :  5986548 total,   799524 livre,  2676984 usados,  2510040 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2790828 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+19363 mateus    20   0   44336   4296   3620 S   1,0  0,1   0:05.20 top
+20193 mateus    20   0   44336   4140   3464 R   1,0  0,1   0:00.05 top
+ 1106 root      20   0  639040  88948  70852 S   0,7  1,5   3:42.85 Xorg
+ 2306 mateus    20   0  848080  36232  27264 S   0,3  0,6   0:40.99 metacity
+ 3004 mateus    20   0 1431604 118828  43104 S   0,3  2,0   0:39.87 nautilus
+ 6082 mateus    20   0 1079560 302524 101372 S   0,3  5,1   1:07.63 chrome
+17606 root      20   0       0      0      0 I   0,3  0,0   0:00.52 kworker/u1+
+19953 root      20   0       0      0      0 I   0,3  0,0   0:00.07 kworker/0:+
+22827 mateus    20   0 1150168 245344 114452 S   0,3  4,1   2:51.08 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,3  1,5   0:24.96 chrome
+31934 mateus    20   0  740684 124260  77788 S   0,3  2,1   0:06.35 chrome
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2035 mateus    20   0 1258712  26572  21668 S   0,0  0,4   0:00.56 indicator-+
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2071 mateus    20   0  555128  40520  34444 S   0,0  0,7   0:01.90 gnome-scre+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2311 mateus    20   0  818560  51620  36304 S   0,0  0,9   0:11.48 gnome-panel
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 7575 mysql     20   0 1424360 178344  15680 S   0,0  3,0   0:01.68 mysqld
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17293 mateus    20   0  747400 134276  81376 S   0,0  2,2   0:05.37 chrome
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17395 mateus    20   0 1990368 358420 129588 S   0,0  6,0   1:18.34 qtcreator
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17678 mateus    20   0  797732  39640  29908 S   0,0  0,7   0:02.34 gnome-term+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19881 root      20   0       0      0      0 I   0,0  0,0   0:00.09 kworker/u1+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20119 root      20   0       0      0      0 I   0,0  0,0   0:00.02 kworker/1:+
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+26126 mateus    20   0  820668 146568  83912 S   0,0  2,4   0:20.48 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
+
+top - 09:30:58 up 2 days, 17:21,  1 user,  load average: 0,07, 0,27, 0,39
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  0,8 us,  0,7 sis,  0,0 ni, 98,5 oc,  0,0 ag,  0,0 ih,  0,0 is  0,0 tr
+KB mem :  5986548 total,   799296 livre,  2677204 usados,  2510048 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2790648 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+ 3004 mateus    20   0 1431604 118828  43104 S   1,0  2,0   0:39.90 nautilus
+ 1106 root      20   0  639076  88948  70852 S   0,7  1,5   3:42.87 Xorg
+ 6082 mateus    20   0 1079560 302524 101372 S   0,3  5,1   1:07.64 chrome
+17678 mateus    20   0  797732  39640  29908 S   0,3  0,7   0:02.35 gnome-term+
+19363 mateus    20   0   44336   4296   3620 S   0,3  0,1   0:05.21 top
+20193 mateus    20   0   44336   4140   3464 R   0,3  0,1   0:00.06 top
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2035 mateus    20   0 1258712  26572  21668 S   0,0  0,4   0:00.56 indicator-+
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2071 mateus    20   0  555128  40520  34444 S   0,0  0,7   0:01.90 gnome-scre+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2306 mateus    20   0  848080  36232  27264 S   0,0  0,6   0:40.99 metacity
+ 2311 mateus    20   0  818560  51620  36304 S   0,0  0,9   0:11.48 gnome-panel
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 7575 mysql     20   0 1424360 178344  15680 S   0,0  3,0   0:01.68 mysqld
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17293 mateus    20   0  747400 134276  81376 S   0,0  2,2   0:05.37 chrome
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17395 mateus    20   0 1990368 358420 129588 S   0,0  6,0   1:18.34 qtcreator
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17606 root      20   0       0      0      0 I   0,0  0,0   0:00.52 kworker/u1+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19881 root      20   0       0      0      0 I   0,0  0,0   0:00.09 kworker/u1+
+19953 root      20   0       0      0      0 I   0,0  0,0   0:00.07 kworker/0:+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20119 root      20   0       0      0      0 I   0,0  0,0   0:00.02 kworker/1:+
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22827 mateus    20   0 1150168 245344 114452 S   0,0  4,1   2:51.08 chrome
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,0  1,5   0:24.96 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+26126 mateus    20   0  820924 146568  83912 S   0,0  2,4   0:20.48 chrome
+31934 mateus    20   0  740684 124260  77788 S   0,0  2,1   0:06.35 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
+
+top - 09:31:01 up 2 days, 17:21,  1 user,  load average: 0,07, 0,27, 0,39
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  1,0 us,  0,3 sis,  0,0 ni, 98,7 oc,  0,0 ag,  0,0 ih,  0,0 is  0,0 tr
+KB mem :  5986548 total,   799044 livre,  2677356 usados,  2510148 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2790456 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+19363 mateus    20   0   44336   4296   3620 S   1,0  0,1   0:05.24 top
+20193 mateus    20   0   44336   4140   3464 R   1,0  0,1   0:00.09 top
+ 1106 root      20   0  639076  88984  70888 S   0,3  1,5   3:42.88 Xorg
+ 2035 mateus    20   0 1258712  26572  21668 S   0,3  0,4   0:00.57 indicator-+
+ 2311 mateus    20   0  818560  51620  36304 S   0,3  0,9   0:11.49 gnome-panel
+ 3004 mateus    20   0 1431604 118828  43104 S   0,3  2,0   0:39.91 nautilus
+ 7575 mysql     20   0 1424360 178344  15680 S   0,3  3,0   0:01.69 mysqld
+17293 mateus    20   0  747400 134276  81376 S   0,3  2,2   0:05.38 chrome
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2071 mateus    20   0  555128  40520  34444 S   0,0  0,7   0:01.90 gnome-scre+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2306 mateus    20   0  848080  36232  27264 S   0,0  0,6   0:40.99 metacity
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 6082 mateus    20   0 1079560 302524 101372 S   0,0  5,1   1:07.64 chrome
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17395 mateus    20   0 1990368 358420 129588 S   0,0  6,0   1:18.34 qtcreator
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17606 root      20   0       0      0      0 I   0,0  0,0   0:00.52 kworker/u1+
+17678 mateus    20   0  797732  39640  29908 S   0,0  0,7   0:02.35 gnome-term+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19881 root      20   0       0      0      0 I   0,0  0,0   0:00.09 kworker/u1+
+19953 root      20   0       0      0      0 I   0,0  0,0   0:00.07 kworker/0:+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20119 root      20   0       0      0      0 I   0,0  0,0   0:00.02 kworker/1:+
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22827 mateus    20   0 1150168 245344 114452 S   0,0  4,1   2:51.08 chrome
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,0  1,5   0:24.96 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+26126 mateus    20   0  820924 146568  83912 S   0,0  2,4   0:20.48 chrome
+31934 mateus    20   0  740684 124260  77788 S   0,0  2,1   0:06.35 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
+
+top - 09:31:04 up 2 days, 17:21,  1 user,  load average: 0,06, 0,26, 0,38
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  0,8 us,  0,7 sis,  0,0 ni, 98,3 oc,  0,2 ag,  0,0 ih,  0,0 is  0,0 tr
+KB mem :  5986548 total,   799612 livre,  2676860 usados,  2510076 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2791072 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+ 3004 mateus    20   0 1431604 118828  43104 S   0,7  2,0   0:39.93 nautilus
+19363 mateus    20   0   44336   4296   3620 S   0,7  0,1   0:05.26 top
+20193 mateus    20   0   44336   4140   3464 R   0,7  0,1   0:00.11 top
+ 1106 root      20   0  638972  88940  70844 S   0,3  1,5   3:42.89 Xorg
+ 2071 mateus    20   0  555128  40520  34444 S   0,3  0,7   0:01.91 gnome-scre+
+20119 root      20   0       0      0      0 I   0,3  0,0   0:00.03 kworker/1:+
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2035 mateus    20   0 1258712  26572  21668 S   0,0  0,4   0:00.57 indicator-+
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2306 mateus    20   0  848080  36232  27264 S   0,0  0,6   0:40.99 metacity
+ 2311 mateus    20   0  818560  51620  36304 S   0,0  0,9   0:11.49 gnome-panel
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 6082 mateus    20   0 1079560 302524 101372 S   0,0  5,1   1:07.64 chrome
+ 7575 mysql     20   0 1424360 178344  15680 S   0,0  3,0   0:01.69 mysqld
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17293 mateus    20   0  747400 134276  81376 S   0,0  2,2   0:05.38 chrome
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17395 mateus    20   0 1990368 358420 129588 S   0,0  6,0   1:18.34 qtcreator
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17606 root      20   0       0      0      0 I   0,0  0,0   0:00.52 kworker/u1+
+17678 mateus    20   0  797732  39640  29908 S   0,0  0,7   0:02.35 gnome-term+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19881 root      20   0       0      0      0 I   0,0  0,0   0:00.09 kworker/u1+
+19953 root      20   0       0      0      0 I   0,0  0,0   0:00.07 kworker/0:+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22827 mateus    20   0 1150168 245344 114452 S   0,0  4,1   2:51.08 chrome
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,0  1,5   0:24.96 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+26126 mateus    20   0  820924 146568  83912 S   0,0  2,4   0:20.48 chrome
+31934 mateus    20   0  740684 124260  77788 S   0,0  2,1   0:06.35 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
+
+top - 09:31:07 up 2 days, 17:21,  1 user,  load average: 0,06, 0,26, 0,38
+Tarefas: 264 total,   1 em exec., 216 dormindo,   0 parado,   0 zumbi
+%CPU(s):  0,7 us,  0,7 sis,  0,0 ni, 98,7 oc,  0,0 ag,  0,0 ih,  0,0 is  0,0 tr
+KB mem :  5986548 total,   799464 livre,  2677012 usados,  2510072 buff/cache
+KB swap:  2097148 total,  2093564 livre,     3584 usados,  2790956 mem dispon.
+
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM    TEMPO+ COMANDO
+ 1106 root      20   0  638936  88916  70820 S   0,7  1,5   3:42.91 Xorg
+19363 mateus    20   0   44336   4296   3620 S   0,7  0,1   0:05.28 top
+ 2306 mateus    20   0  848080  36232  27264 S   0,3  0,6   0:41.00 metacity
+ 3004 mateus    20   0 1431604 118828  43104 S   0,3  2,0   0:39.94 nautilus
+ 6082 mateus    20   0 1079560 302524 101372 S   0,3  5,1   1:07.65 chrome
+17395 mateus    20   0 1990368 358420 129588 S   0,3  6,0   1:18.35 qtcreator
+19881 root      20   0       0      0      0 I   0,3  0,0   0:00.10 kworker/u1+
+20193 mateus    20   0   44336   4140   3464 R   0,3  0,1   0:00.12 top
+26126 mateus    20   0  820924 146568  83912 S   0,3  2,4   0:20.49 chrome
+    1 root      20   0  225872   9676   6736 S   0,0  0,2   0:03.78 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 rcu_par_gp
+    6 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/0:+
+    8 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 mm_percpu_+
+    9 root      20   0       0      0      0 S   0,0  0,0   0:01.01 ksoftirqd/0
+   10 root      20   0       0      0      0 I   0,0  0,0   0:05.82 rcu_sched
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.11 migration/0
+   12 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/0
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 cpuhp/1
+   16 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 idle_injec+
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.23 migration/1
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.76 ksoftirqd/1
+   20 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   22 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 netns
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_tasks_+
+   24 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.02 khungtaskd
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 oom_reaper
+   28 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 writeback
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kcompactd0
+   30 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   31 root      39  19       0      0      0 S   0,0  0,0   0:00.00 khugepaged
+   77 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kintegrityd
+   78 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kblockd
+   79 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 blkcg_punt+
+   80 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 tpm_dev_wq
+   81 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ata_sff
+   82 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 md
+   83 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 edac-poller
+   84 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 devfreq_wq
+   85 root      rt   0       0      0      0 S   0,0  0,0   0:00.00 watchdogd
+   88 root      20   0       0      0      0 S   0,0  0,0   0:01.95 kswapd0
+   89 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-k+
+   91 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kthrotld
+   92 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 acpi_therm+
+   93 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 vfio-irqfd+
+   96 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ipv6_addrc+
+  105 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kstrp
+  108 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kworker/u1+
+  121 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 charger_ma+
+  161 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  162 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_1
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  166 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_2
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  168 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_3
+  169 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  170 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_4
+  171 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  172 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 scsi_tmf_5
+  178 root       0 -20       0      0      0 I   0,0  0,0   0:00.94 kworker/0:+
+  211 root       0 -20       0      0      0 I   0,0  0,0   0:00.64 kworker/1:+
+  212 root      20   0       0      0      0 S   0,0  0,0   0:01.12 jbd2/sda1-8
+  213 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 ext4-rsv-c+
+  248 root      19  -1  136200  17812  16692 S   0,0  0,3   0:01.55 systemd-jo+
+  277 root      20   0   47456   5524   3140 S   0,0  0,1   0:00.94 systemd-ud+
+  280 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop0
+  282 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop1
+  284 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop2
+  287 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop3
+  289 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 loop4
+  290 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop5
+  292 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop6
+  294 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop7
+  300 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop8
+  303 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop9
+  305 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop10
+  308 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop11
+  309 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop12
+  311 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop13
+  325 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop14
+  331 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop15
+  333 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop16
+  334 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop17
+  335 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop18
+  368 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop19
+  383 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop20
+  385 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 loop21
+  410 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 loop22
+  528 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cfg80211
+  530 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 cryptd
+  574 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 kmemstick
+  768 systemd+  20   0  146132   3324   2764 S   0,0  0,1   0:00.10 systemd-ti+
+  769 systemd+  20   0   71168   6540   5464 S   0,0  0,1   0:00.62 systemd-re+
+  825 root      20   0    4548    784    724 S   0,0  0,0   0:00.89 acpid
+  826 root      20   0   31324   3132   2848 S   0,0  0,1   0:00.06 cron
+  830 root      20   0  110476   3672   3312 S   0,0  0,1   0:01.46 irqbalance
+  837 root      20   0  170872  17036   9040 S   0,0  0,3   0:00.12 networkd-d+
+  838 root      20   0  179872   9388   8584 S   0,0  0,2   0:01.53 thermald
+  865 avahi     20   0   47260   3216   2876 S   0,0  0,1   0:00.33 avahi-daem+
+  866 root      20   0  434324   9496   8080 S   0,0  0,2   0:00.13 ModemManag+
+  882 root      20   0  288136   7404   6420 S   0,0  0,1   0:00.66 accounts-d+
+  893 message+  20   0   51712   6160   3928 S   0,0  0,1   0:04.84 dbus-daemon
+  907 avahi     20   0   47076    340      0 S   0,0  0,0   0:00.00 avahi-daem+
+  914 root      20   0   45492   8008   7188 S   0,0  0,1   0:00.26 wpa_suppli+
+  916 root      20   0  895768  18184  14416 S   0,0  0,3   0:06.05 NetworkMan+
+  920 root      20   0  503624  11760   8668 S   0,0  0,2   0:04.68 udisksd
+  921 syslog    20   0  263036   4520   3484 S   0,0  0,1   0:00.47 rsyslogd
+  922 root      20   0   70760   6220   5388 S   0,0  0,1   0:00.56 systemd-lo+
+  926 root      20   0 1170368  28072  14628 S   0,0  0,5   0:07.16 snapd
+  934 root      20   0  297116  10204   6992 S   0,0  0,2   0:00.53 polkitd
+ 1018 dictd     20   0   59128   3288   2528 S   0,0  0,1   0:00.01 dictd
+ 1032 memcache  20   0  424760   3024   2512 S   0,0  0,1   0:05.68 memcached
+ 1034 root      20   0  187288  19928  11972 S   0,0  0,3   0:00.13 unattended+
+ 1057 root      20   0   72300   5700   4972 S   0,0  0,1   0:00.03 sshd
+ 1079 root      20   0  364260   6940   5920 S   0,0  0,1   0:00.02 lightdm
+ 1113 root      20   0   16184   1968   1832 S   0,0  0,0   0:00.00 agetty
+ 1123 root      20   0  561444  32220  24616 S   0,0  0,5   0:01.29 apache2
+ 1397 rtkit     21   1  183504   3092   2828 S   0,0  0,1   0:00.33 rtkit-daem+
+ 1430 root      20   0  315684   9012   7764 S   0,0  0,2   0:00.78 upowerd
+ 1470 colord    20   0  423440 118344   9224 S   0,0  2,0   0:00.66 colord
+ 1474 root      20   0  250552   7204   6292 S   0,0  0,1   0:00.02 lightdm
+ 1485 clamav    20   0  308804  32840  26496 S   0,0  0,5   0:04.76 freshclam
+ 1487 whoopsie  20   0  464356  12484  10812 S   0,0  0,2   0:00.04 whoopsie
+ 1489 kernoops  20   0   56940    420      0 S   0,0  0,0   0:01.09 kerneloops
+ 1501 sndiod     0 -20   30432    236      0 S   0,0  0,0   0:00.00 sndiod
+ 1503 kernoops  20   0   56940   2664   2216 S   0,0  0,0   0:01.08 kerneloops
+ 1765 Debian-+  20   0   69832   5004   4192 S   0,0  0,1   0:00.00 exim4
+ 1780 mateus    20   0   77340   8588   6828 S   0,0  0,1   0:03.35 systemd
+ 1781 mateus    20   0  196456   3052     12 S   0,0  0,1   0:00.00 (sd-pam)
+ 1794 mateus    20   0  281836   8552   7448 S   0,0  0,1   0:00.21 gnome-keyr+
+ 1797 mateus    20   0    4624    880    812 S   0,0  0,0   0:00.56 run-system+
+ 1844 mateus    20   0  429000   8156   6188 S   0,0  0,1   0:25.65 ibus-daemon
+ 1851 mateus    20   0   51080   5364   3728 S   0,0  0,1   0:01.35 dbus-daemon
+ 1855 mateus    20   0  285256   7376   6348 S   0,0  0,1   0:00.11 gvfsd
+ 1861 mateus    20   0  416112   5364   4832 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 1863 mateus    20   0  274144   7000   6348 S   0,0  0,1   0:00.00 ibus-dconf
+ 1864 mateus    20   0  472568  33792  24700 S   0,0  0,6   0:00.88 ibus-ui-gt+
+ 1868 mateus    20   0  337796  21224  16588 S   0,0  0,4   0:00.14 ibus-x11
+ 1888 mateus    20   0  272076   6112   5672 S   0,0  0,1   0:00.08 ibus-portal
+ 1932 mateus    20   0   11304    316      0 S   0,0  0,0   0:00.10 ssh-agent
+ 1933 mateus    20   0  198276   6944   6312 S   0,0  0,1   0:06.90 ibus-engin+
+ 1936 mateus    20   0   94588  34716   1688 S   0,0  0,6   0:01.96 monkeysphe+
+ 2023 mateus    20   0   64948   6092   5536 S   0,0  0,1   0:00.00 systemctl
+ 2035 mateus    20   0 1258712  26572  21668 S   0,0  0,4   0:00.57 indicator-+
+ 2036 mateus    20   0  414896   6060   5420 S   0,0  0,1   0:00.00 indicator-+
+ 2037 mateus    20   0  902552   7500   6348 S   0,0  0,1   0:00.06 indicator-+
+ 2038 mateus    20   0  462080  23852  18520 S   0,0  0,4   0:00.16 indicator-+
+ 2039 mateus    20   0  775336  15680  12836 S   0,0  0,3   0:00.25 gnome-sess+
+ 2040 mateus    20   0  391292  10784   9312 S   0,0  0,2   0:00.62 indicator-+
+ 2058 mateus    20   0  366928   8156   6992 S   0,0  0,1   0:00.02 indicator-+
+ 2059 mateus    20   0 1012060  11404   9832 S   0,0  0,2   0:00.08 indicator-+
+ 2060 mateus    20   0  572604   7252   6212 S   0,0  0,1   0:00.20 indicator-+
+ 2061 mateus    20   0  712592  27544  20872 S   0,0  0,5   0:00.22 indicator-+
+ 2071 mateus    20   0  555128  40520  34444 S   0,0  0,7   0:01.91 gnome-scre+
+ 2102 mateus     9 -11 2121096  17536  13460 S   0,0  0,3   0:03.54 pulseaudio
+ 2103 mateus    20   0 1365884  26620  22380 S   0,0  0,4   0:00.10 evolution-+
+ 2121 mateus    20   0  777236  33784  27892 S   0,0  0,6   0:00.07 goa-daemon
+ 2132 mateus    20   0  894028  67356  27468 S   0,0  1,1   0:00.45 evolution-+
+ 2137 mateus    20   0  357940   7412   6628 S   0,0  0,1   0:00.91 gsd-housek+
+ 2139 mateus    20   0  500420  22224  17340 S   0,0  0,4   0:00.21 gsd-keyboa+
+ 2140 mateus    20   0 1198464  24128  18676 S   0,0  0,4   0:00.35 gsd-media-+
+ 2141 mateus    20   0  271648   5724   5176 S   0,0  0,1   0:00.02 gsd-mouse
+ 2151 mateus    20   0  370628   8000   7144 S   0,0  0,1   0:00.32 goa-identi+
+ 2154 mateus    20   0  865856  25160  19412 S   0,0  0,4   0:00.46 gsd-power
+ 2157 mateus    20   0  342508  10448   9116 S   0,0  0,2   0:00.03 gsd-print-+
+ 2159 mateus    20   0  416532   6148   5520 S   0,0  0,1   0:00.03 gsd-rfkill
+ 2162 mateus    20   0  446456  10212   8316 S   0,0  0,2   0:02.49 gsd-sharing
+ 2164 mateus    20   0  371560   8132   7328 S   0,0  0,1   0:00.03 gsd-smartc+
+ 2168 mateus    20   0  268920   6024   5460 S   0,0  0,1   0:00.02 gsd-screen+
+ 2172 mateus    20   0  326348   8284   7308 S   0,0  0,1   0:00.02 gsd-sound
+ 2179 mateus    20   0  498448  22048  16800 S   0,0  0,4   0:00.22 gsd-wacom
+ 2185 mateus    20   0  490004  23084  17672 S   0,0  0,4   0:00.25 gsd-xsetti+
+ 2187 mateus    20   0  349332   6148   5560 S   0,0  0,1   0:00.01 at-spi-bus+
+ 2195 mateus    20   0  271644   5716   5172 S   0,0  0,1   0:00.02 gsd-a11y-s+
+ 2196 mateus    20   0  661960  23164  17828 S   0,0  0,4   0:03.76 gsd-color
+ 2198 mateus    20   0  337484  20688  16032 S   0,0  0,3   0:00.18 gsd-clipbo+
+ 2203 mateus    20   0  469444  22032  14280 S   0,0  0,4   0:00.20 gsd-dateti+
+ 2211 mateus    20   0   50056   4304   3704 S   0,0  0,1   0:00.18 dbus-daemon
+ 2233 mateus    20   0 1129512  62512  23508 S   0,0  1,0   0:00.46 evolution-+
+ 2235 mateus    20   0  501952  12860  11096 S   0,0  0,2   0:00.02 gsd-printer
+ 2243 mateus    20   0  220784   6988   6288 S   0,0  0,1   0:00.73 at-spi2-re+
+ 2276 mateus    20   0  188136   5484   4620 S   0,0  0,1   0:00.15 dconf-serv+
+ 2279 mateus    20   0  726332  24692  21280 S   0,0  0,4   0:00.05 evolution-+
+ 2294 mateus    20   0 1010868  26920  23412 S   0,0  0,4   0:00.07 evolution-+
+ 2311 mateus    20   0  818560  51620  36304 S   0,0  0,9   0:11.49 gnome-panel
+ 2317 mateus    20   0  741156  36796  27352 S   0,0  0,6   0:09.06 gnome-flas+
+ 2318 mateus    20   0  840212  54132  41036 S   0,0  0,9   0:01.72 nautilus-d+
+ 2333 mateus    20   0  299908   9068   7392 S   0,0  0,2   0:01.21 gvfs-udisk+
+ 2338 mateus    20   0  361672   7496   6408 S   0,0  0,1   0:00.04 gvfsd-trash
+ 2344 mateus    20   0  372000   7824   6952 S   0,0  0,1   0:00.01 gvfs-afc-v+
+ 2349 mateus    20   0  269020   6136   5484 S   0,0  0,1   0:00.02 gvfs-mtp-v+
+ 2353 mateus    20   0  267224   6160   5600 S   0,0  0,1   0:00.02 gvfs-goa-v+
+ 2357 mateus    20   0  281944   6900   6084 S   0,0  0,1   0:00.02 gvfs-gphot+
+ 2371 mateus    20   0  271932   6472   5132 S   0,0  0,1   0:00.02 gsd-disk-u+
+ 2377 mateus    20   0  735924  32896  25636 S   0,0  0,5   0:03.87 nm-applet
+ 2825 mateus    20   0 1351436 206452  39808 S   0,0  3,4   0:15.17 gnome-soft+
+ 2850 root      20   0  515452  69408  13428 S   0,0  1,2   0:24.12 packagekitd
+ 2859 root      20   0  290228   7004   6272 S   0,0  0,1   0:00.03 boltd
+ 3017 mateus    20   0  197856   6272   5484 S   0,0  0,1   0:00.01 gvfsd-meta+
+ 3052 mateus    20   0  864464  34324  28096 S   0,0  0,6   0:00.08 deja-dup-m+
+ 7575 mysql     20   0 1424360 178344  15680 S   0,0  3,0   0:01.69 mysqld
+ 8161 root      20   0  100988   8664   6936 S   0,0  0,1   0:00.01 cupsd
+ 8162 root      20   0  303528  11072   9644 S   0,0  0,2   0:00.02 cups-brows+
+ 8179 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8180 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8181 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8184 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+ 8185 www-data  20   0  563768  17604   9976 S   0,0  0,3   0:00.00 apache2
+10846 mateus    20   0  437592   7968   7044 S   0,0  0,1   0:00.03 gvfsd-netw+
+10901 mateus    20   0  374472   7576   6672 S   0,0  0,1   0:00.02 gvfsd-dnssd
+16990 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfsalloc
+16998 root       0 -20       0      0      0 I   0,0  0,0   0:00.00 xfs_mru_ca+
+17003 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsIO
+17004 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17005 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsCommit
+17006 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jfsSync
+17293 mateus    20   0  747400 134276  81376 S   0,0  2,2   0:05.38 chrome
+17343 mateus    20   0  426944   9360   8048 S   0,0  0,2   0:00.04 zeitgeist-+
+17349 mateus    20   0  326752  16392  13848 S   0,0  0,3   0:00.07 zeitgeist-+
+17407 mateus    20   0  423460 215516  90464 S   0,0  3,6   0:28.41 clangbacke+
+17606 root      20   0       0      0      0 I   0,0  0,0   0:00.52 kworker/u1+
+17678 mateus    20   0  797732  39640  29908 S   0,0  0,7   0:02.35 gnome-term+
+17688 mateus    20   0   22872   5260   3592 S   0,0  0,1   0:00.09 bash
+17702 mateus    20   0  731940 124208  81512 S   0,0  2,1   0:02.08 chrome
+17806 mateus    20   0  727328 120916  79272 S   0,0  2,0   0:01.01 chrome
+17825 mateus    20   0  730144 121940  79144 S   0,0  2,0   0:01.07 chrome
+18302 root      20   0       0      0      0 I   0,0  0,0   0:00.27 kworker/0:+
+18799 root      20   0       0      0      0 I   0,0  0,0   0:00.00 kworker/1:+
+19054 mateus    20   0  747836 138148  88928 S   0,0  2,3   0:06.11 chrome
+19084 root      20   0       0      0      0 I   0,0  0,0   0:00.13 kworker/0:+
+19194 mateus    20   0  737184 131276  87872 S   0,0  2,2   0:03.59 chrome
+19325 root      20   0       0      0      0 I   0,0  0,0   0:00.16 kworker/u1+
+19362 mateus    20   0    4624    884    816 S   0,0  0,0   0:00.00 sh
+19545 root      20   0       0      0      0 I   0,0  0,0   0:00.14 kworker/1:+
+19953 root      20   0       0      0      0 I   0,0  0,0   0:00.07 kworker/0:+
+19964 root      20   0       0      0      0 I   0,0  0,0   0:00.01 kworker/1:+
+20029 mateus    20   0  758096 155456 105920 S   0,0  2,6   0:06.06 chrome
+20039 mateus    20   0  667700  54892  40404 S   0,0  0,9   0:00.06 chrome
+20119 root      20   0       0      0      0 I   0,0  0,0   0:00.03 kworker/1:+
+20167 mateus    20   0  736684  53176  44248 S   0,0  0,9   0:00.28 Gerenciado+
+22827 mateus    20   0 1150168 245344 114452 S   0,0  4,1   2:51.08 chrome
+22834 mateus    20   0    7612    740    680 S   0,0  0,0   0:00.00 cat
+22835 mateus    20   0    7612    740    676 S   0,0  0,0   0:00.00 cat
+22838 mateus    20   0  440504  41916  31376 S   0,0  0,7   0:00.16 chrome
+22839 mateus    20   0   35508   4156   3452 S   0,0  0,1   0:00.00 nacl_helper
+22842 mateus    20   0  440504  14708   4156 S   0,0  0,2   0:00.34 chrome
+22862 mateus    20   0  526912 106104  75620 S   0,0  1,8   1:31.75 chrome
+22868 mateus    20   0  563820  90520  46464 S   0,0  1,5   0:24.96 chrome
+22886 mateus    20   0  407776  13704   3648 S   0,0  0,2   0:00.00 chrome
+22963 mateus    20   0 1993536 234624  66900 S   0,0  3,9   0:21.23 chrome
+25116 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/28-mei+
+25225 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ath9k-hwrng
+25272 root      20   0   25980   6440   5168 S   0,0  0,1   0:00.00 dhclient
+26074 root      20   0  584524  40688  17240 S   0,0  0,7   0:00.49 fwupd
+31934 mateus    20   0  740684 124260  77788 S   0,0  2,1   0:06.35 chrome
+32118 mateus    20   0  775596 145516  86488 S   0,0  2,4   0:14.95 chrome
+32178 mateus    20   0  724716 116364  74068 S   0,0  1,9   0:00.93 chrome
+32723 mateus    20   0  736616 125124  77744 S   0,0  2,1   0:01.36 chrome
